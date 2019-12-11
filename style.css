@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    background-color: teal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 50px;
+    padding: 0;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main-pic {
+    margin: auto;
+    border: 1px solid black;
+    height: 200px;
+    width: 175px;
+    border-radius: 3px;
+}
+
+.cat-pic {
+    margin: auto;
+    height: 300px;
+    width: 400px;
+}
+
+.intro {
+    margin: 50px;
+}
+
+.fur-babes {
+    margin-top: 50px;
+}
