@@ -52,7 +52,6 @@ header {
 }
 
 main {
-    display: flexbox;
     flex-direction: column;
 }
 
@@ -75,11 +74,9 @@ main {
 }
 
 .intro {
-    margin: 50px;
-}
-
-.fur-babes {
-    margin: 50px;
+    margin: auto;
+    text-align: left;
+    width: 75%;
 }
 
 .fur-babes p {
